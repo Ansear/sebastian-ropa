@@ -14,7 +14,7 @@ public class MappingProfiles : Profile
     {
         CreateMap<Cargo, CargoDto>().ReverseMap();
         CreateMap<Cliente, ClienteDto>().ReverseMap();
-        CreateMap<Color, ColorDto>().ReverseMap();
+        CreateMap<Color, PaisDto>().ReverseMap();
         CreateMap<Departamento, DepartamentoDto>().ReverseMap();
         CreateMap<DetalleOrden, DetalleOrdenDto>().ReverseMap();
         CreateMap<DetalleVenta, DetalleVentaDto>().ReverseMap();
