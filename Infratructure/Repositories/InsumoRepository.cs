@@ -7,11 +7,11 @@ using Core.Interfaces;
 using Infratructure.Data;
 
 namespace Infratructure.Repositories;
-public class InsumoRepositoryv : GenericRepository<Insumo>, IInsumo
+public class InsumoRepository : GenericRepository<Insumo>, IInsumo
 {
     private readonly RopaContext _context;
 
-    public InsumoRepositoryv(RopaContext context) : base(context)
+    public InsumoRepository(RopaContext context) : base(context)
     {
         _context = context;
     }
